@@ -49,21 +49,22 @@ main {
 
 .main--title {
     margin: 0;
-    font-size: 39px;
+    font-size: 500%;
     letter-spacing: -0.05em;
 }
 
 .main--facts {
     margin-top: 46px;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 
 .main--facts > li {
+    font-size: 25px;
     line-height: 19px;
-    padding-block: 10px;
+    padding-block: 20px;
 }
 
 .main--facts > li::marker {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     color: #61DAFB;
 }
